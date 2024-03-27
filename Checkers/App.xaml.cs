@@ -1,17 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Checkers.Models;
 using System.Windows;
 
 namespace Checkers
 {
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
     public partial class App : Application
     {
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            Board board = new Board(8,8);
+            Piece selected = board.GetPiece(0, 1);
+            board.ForcedPlacePiece(new Piece(PieceColor.Black), 0, 0);
+            board.ResetBoard();
+
+            base.OnStartup(e);
+        }
     }
 }
