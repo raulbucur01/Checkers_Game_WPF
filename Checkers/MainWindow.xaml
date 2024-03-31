@@ -3,29 +3,14 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Checkers"
+        xmlns:local="clr-namespace:Checkers" 
+        xmlns:views="clr-namespace:Checkers.Views"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Checkers" Height="775" Width="1000"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
     
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-        </Grid.RowDefinitions>
-        <Label Grid.Row="0" Content="Welcome to CHECKERS!" FontSize="30" HorizontalAlignment="Center"
-               Margin="0,10,0,10"/>
-        <Button Grid.Row="1" Content="New Game" Width="150" Height="50" FontSize="20"></Button>
-        <Button Grid.Row="2" Content="Open Game" Width="150" Height="50" FontSize="20"></Button>
-        <CheckBox Grid.Row="3" Content="Allow Multiple Jump" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <CheckBox.LayoutTransform>
-                <ScaleTransform ScaleX="2" ScaleY="2" />
-            </CheckBox.LayoutTransform>
-        </CheckBox>
-        <Button Grid.Row="4" Content="Statistics" Width="150" Height="50" FontSize="20"></Button>
-        <Button Grid.Row="5" Content="About" Width="150" Height="50" FontSize="20"></Button>
+        <views:GameView/>
     </Grid>
 </Window>

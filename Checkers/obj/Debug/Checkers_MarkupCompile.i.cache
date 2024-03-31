@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers\App.xaml
-21469328579
+2-1064871372
 
-9253921027
+7277172240
 13-1310406943
-MainWindow.xaml;Views\GameWindow.xaml;
+MainWindow.xaml;Views\GameView.xaml;
 
-True
+False
 
