@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/blackpiece.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/redpiece.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/kingb.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/kingr.png")]
 
 

@@ -3,24 +3,56 @@
   "WorkspaceRootPath": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers\\views\\gameview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:views\\gameview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers\\views\\gameview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:views\\gameview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers\\views\\gameview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:views\\gameview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers\\models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers\\models\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:models\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers\\models\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:models\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers\\models\\piecetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:models\\piecetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers\\models\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:models\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers\\models\\normalpiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:models\\normalpiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers\\models\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:models\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers\\models\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:models\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,65 +66,169 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameView.xaml",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Views\\GameView.xaml",
-              "RelativeDocumentMoniker": "Views\\GameView.xaml",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Views\\GameView.xaml",
-              "RelativeToolTip": "Views\\GameView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-31T17:24:24.153Z",
+              "DocumentIndex": 3,
+              "Title": "Images.cs",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Models\\Images.cs",
+              "RelativeDocumentMoniker": "Models\\Images.cs",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Models\\Images.cs",
+              "RelativeToolTip": "Models\\Images.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCYAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T11:14:44.61Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "GameView.xaml.cs",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Views\\GameView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\GameView.xaml.cs",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Views\\GameView.xaml.cs",
+              "RelativeToolTip": "Views\\GameView.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAADgvxAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T11:12:17.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-31T17:23:26.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T17:23:25.413Z",
+              "WhenOpened": "2024-04-01T11:11:19.284Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameView.xaml.cs",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Views\\GameView.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\GameView.xaml.cs",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Views\\GameView.xaml.cs",
-              "RelativeToolTip": "Views\\GameView.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Title": "GameView.xaml",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Views\\GameView.xaml",
+              "RelativeDocumentMoniker": "Views\\GameView.xaml",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Views\\GameView.xaml",
+              "RelativeToolTip": "Views\\GameView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-01T11:11:08.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameState.cs",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Models\\GameState.cs",
+              "RelativeDocumentMoniker": "Models\\GameState.cs",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Models\\GameState.cs",
+              "RelativeToolTip": "Models\\GameState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T17:23:24.158Z",
+              "WhenOpened": "2024-04-01T11:08:15.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Board.cs",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Models\\Board.cs",
+              "RelativeDocumentMoniker": "Models\\Board.cs",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Models\\Board.cs",
+              "RelativeToolTip": "Models\\Board.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T10:52:30.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "King.cs",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Models\\King.cs",
+              "RelativeDocumentMoniker": "Models\\King.cs",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Models\\King.cs",
+              "RelativeToolTip": "Models\\King.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T10:50:02.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NormalPiece.cs",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Models\\NormalPiece.cs",
+              "RelativeDocumentMoniker": "Models\\NormalPiece.cs",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Models\\NormalPiece.cs",
+              "RelativeToolTip": "Models\\NormalPiece.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T10:47:00.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Piece.cs",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Models\\Piece.cs",
+              "RelativeDocumentMoniker": "Models\\Piece.cs",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Models\\Piece.cs",
+              "RelativeToolTip": "Models\\Piece.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T10:44:18.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Models\\Position.cs",
+              "RelativeDocumentMoniker": "Models\\Position.cs",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Models\\Position.cs",
+              "RelativeToolTip": "Models\\Position.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T10:42:36.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "Models\\Player.cs",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Models\\Player.cs",
+              "RelativeToolTip": "Models\\Player.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T17:10:25.382Z",
+              "WhenOpened": "2024-04-01T10:42:35.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Direction.cs",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Models\\Direction.cs",
+              "RelativeDocumentMoniker": "Models\\Direction.cs",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Models\\Direction.cs",
+              "RelativeToolTip": "Models\\Direction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T10:42:33.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PieceType.cs",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Models\\PieceType.cs",
+              "RelativeDocumentMoniker": "Models\\PieceType.cs",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers\\Models\\PieceType.cs",
+              "RelativeToolTip": "Models\\PieceType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T10:42:30.863Z",
               "EditorCaption": ""
             }
           ]
