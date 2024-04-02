@@ -8,6 +8,8 @@ namespace Checkers.Models
         public Board Board { get; }
         public Player CurrentPlayer { get; private set; }
 
+        public bool MultipleJumpAllowed { get; set; } = true;
+
         public GameState(Player player, Board board)
         {
             CurrentPlayer = player;
@@ -22,53 +24,72 @@ namespace Checkers.Models
             }
 
             Piece piece = Board[pos];
+            if (MultipleJumpAllowed)
+            {
+                return piece.GetPossibleMovePositionsMultipleJump(pos, Board);
+            }
+
             return piece.GetPossibleMovePositions(pos, Board);
         }
 
         public void MakeMove(Position fromPos, Position toPos)
         {
             Piece piece = Board[fromPos];
-            Board[toPos] = piece;
             Board[fromPos] = null;
+
+            if (PromotableToKing(toPos))
+            {
+                piece = new King(CurrentPlayer);
+            }
+
+            Board[toPos] = piece;
             CurrentPlayer = CurrentPlayer.Opponent();
-            RemovePieceBetween(fromPos, toPos);
+            RemovePiecesBetween(fromPos, toPos);
         }
 
-        private void RemovePieceBetween(Position fromPos, Position toPos)
+        public bool PromotableToKing(Position toPos)
         {
-            // northEast
+            if (toPos.Row == 7 || toPos.Row == 0)
+                return true;
+
+            return false;
+        }
+
+        private void RemovePiecesBetween(Position fromPos, Position toPos)
+        {
+            // NorthEast
             if (toPos.Row < fromPos.Row && toPos.Column > fromPos.Column)
             {
-                if (fromPos.Row - 1 != toPos.Row && fromPos.Column + 1 != toPos.Column)
+                for (int i = fromPos.Row - 1, j = fromPos.Column + 1; i > toPos.Row && j < toPos.Column; i--, j++)
                 {
-                    Board[fromPos.Row - 1, fromPos.Column + 1] = null;
+                    Board[i, j] = null;
                 }
             }
 
             // NorthWest
             if (toPos.Row < fromPos.Row && toPos.Column < fromPos.Column)
             {
-                if (fromPos.Row - 1 != toPos.Row && fromPos.Column - 1 != toPos.Column)
+                for (int i = fromPos.Row - 1, j = fromPos.Column - 1; i > toPos.Row && j > toPos.Column; i--, j--)
                 {
-                    Board[fromPos.Row - 1, fromPos.Column - 1] = null;
+                    Board[i, j] = null;
                 }
             }
 
             // SouthEast
             if (toPos.Row > fromPos.Row && toPos.Column > fromPos.Column)
             {
-                if (fromPos.Row + 1 != toPos.Row && fromPos.Column + 1 != toPos.Column)
+                for (int i = fromPos.Row + 1, j = fromPos.Column + 1; i < toPos.Row && j < toPos.Column; i++, j++)
                 {
-                    Board[fromPos.Row + 1, fromPos.Column + 1] = null;
+                    Board[i, j] = null;
                 }
             }
 
             // SouthWest
             if (toPos.Row > fromPos.Row && toPos.Column < fromPos.Column)
             {
-                if (fromPos.Row + 1 != toPos.Row && fromPos.Column - 1 != toPos.Column)
+                for (int i = fromPos.Row + 1, j = fromPos.Column - 1; i < toPos.Row && j > toPos.Column; i++, j--)
                 {
-                    Board[fromPos.Row + 1, fromPos.Column - 1] = null;
+                    Board[i, j] = null;
                 }
             }
         }

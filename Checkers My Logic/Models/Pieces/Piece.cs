@@ -18,5 +18,6 @@ namespace Checkers.Models
         public abstract Piece Copy();
 
         public abstract List<Position> GetPossibleMovePositions(Position from, Board board);
+        public abstract List<Position> GetPossibleMovePositionsMultipleJump(Position from, Board board);
     }
 }
