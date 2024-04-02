@@ -9,13 +9,13 @@ namespace Checkers.Models
     {
         private static readonly Dictionary<PieceType, ImageSource> blackSources = new Dictionary<PieceType, ImageSource>()
         {
-            { PieceType.NormalPiece, LoadImage("/Assets/BlackPiece.png") },
+            { PieceType.NormalBlackPiece, LoadImage("/Assets/BlackPiece.png") },
             { PieceType.King, LoadImage("/Assets/KingB.png") }
         };
 
         private static readonly Dictionary<PieceType, ImageSource> redSources = new Dictionary<PieceType, ImageSource>()
         {
-            { PieceType.NormalPiece, LoadImage("/Assets/RedPiece.png") },
+            { PieceType.NormalRedPiece, LoadImage("/Assets/RedPiece.png") },
             { PieceType.King, LoadImage("/Assets/KingR.png") }
         };
 

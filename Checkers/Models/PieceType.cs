@@ -2,7 +2,8 @@
 {
     public enum PieceType
     {
-        NormalPiece,
+        NormalRedPiece,
+        NormalBlackPiece,
         King
     }
 }

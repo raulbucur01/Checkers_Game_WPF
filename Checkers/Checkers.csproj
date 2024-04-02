@@ -59,9 +59,13 @@
     <Compile Include="Models\Direction.cs" />
     <Compile Include="Models\GameState.cs" />
     <Compile Include="Models\Images.cs" />
-    <Compile Include="Models\King.cs" />
-    <Compile Include="Models\NormalPiece.cs" />
-    <Compile Include="Models\Piece.cs" />
+    <Compile Include="Models\Pieces\King.cs" />
+    <Compile Include="Models\Moves\Move.cs" />
+    <Compile Include="Models\Moves\NormalMove.cs" />
+    <Compile Include="Models\MoveType.cs" />
+    <Compile Include="Models\Pieces\NormalBlackPiece.cs" />
+    <Compile Include="Models\Pieces\NormalRedPiece.cs" />
+    <Compile Include="Models\Pieces\Piece.cs" />
     <Compile Include="Models\PieceType.cs" />
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\Position.cs" />
@@ -116,8 +120,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\Board.png" />
-    <Resource Include="Assets\CursorB.cur" />
-    <Resource Include="Assets\CursorW.cur" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\BlackPiece.png" />
