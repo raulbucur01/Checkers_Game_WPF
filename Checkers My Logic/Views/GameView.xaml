@@ -39,7 +39,7 @@
                 Height="700">
             <Grid x:Name="BoardGrid" MouseDown="BoardGrid_MouseDown">
                 <Grid.Background>
-                    <ImageBrush ImageSource="C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers\Assets\Board.png"/>
+                    <ImageBrush ImageSource="C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic\Assets\Board.png"/>
                 </Grid.Background>
 
                 <UniformGrid x:Name="HighlightGrid"

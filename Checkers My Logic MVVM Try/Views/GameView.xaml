@@ -1,0 +1,90 @@
+﻿<UserControl x:Class="Checkers.Views.GameView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Checkers.Views"
+             mc:Ignorable="d" 
+             xmlns:ctx="clr-namespace:Checkers.ViewModels"
+             d:DesignHeight="750" d:DesignWidth="1000">
+    
+    <UserControl.DataContext>
+        <ctx:GameViewModel/>
+    </UserControl.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="300"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- MENU -->
+        <Menu Grid.Row="0" Grid.ColumnSpan="2">
+            <MenuItem Header="File" FontSize="20" Height="40">
+                <MenuItem Header="New Game"/>
+                <MenuItem Header="Save"/>
+                <MenuItem Header="Open"/>
+                <MenuItem Header="Allow Multiple Jump" IsCheckable="True"/>
+                <MenuItem Header="Statistics"/>
+            </MenuItem>
+            <MenuItem Header="Help" FontSize="20" Height="40"/>
+        </Menu>
+        
+        <Grid Grid.Row="1" Grid.Column="1" Background="#FF644A2F">
+        </Grid>
+
+        <!-- BOARD -->
+        <Border Grid.Row="1" Grid.Column="0" 
+                BorderThickness="50" BorderBrush="#FF392817"
+                Height="700">
+            <Grid x:Name="BoardGrid" MouseDown="BoardGrid_MouseDown">
+                <Grid.Background>
+                    <ImageBrush ImageSource="C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM TRY\Assets\Board.png"/>
+                </Grid.Background>
+
+                <UniformGrid x:Name="HighlightGrid"
+                             Rows="8" Columns="8">
+                </UniformGrid>
+
+                <UniformGrid x:Name="PieceGrid" Rows="8" Columns="8" 
+                             RenderOptions.BitmapScalingMode="HighQuality">
+                </UniformGrid>
+            </Grid>
+        </Border>
+        
+        <!-- GAME INFO -->
+        <StackPanel Grid.Row="1" Grid.Column="1" Background="#FF392817"
+                    HorizontalAlignment="Center" VerticalAlignment="Center"
+                    Width="301">
+            <Label Content="Black pieces left:" Foreground="#FFE5D7D7" FontSize="35"
+                   Margin="0,0,0,0"
+                   HorizontalAlignment="Center"/>
+            <Label Content="{Binding NoBlackPieces}" Foreground="#FFE5D7D7" FontSize="35"
+                   HorizontalAlignment="Center"
+                   Margin="0,0,0,100"/>
+            
+            <!-- NEXT MOVE -->
+            <Label Grid.Row="1" Grid.Column="1" FontSize="50" Foreground="#FFE5D7D7"
+                   HorizontalAlignment="Center" VerticalAlignment="Center"
+                   Content="Next move:"/>
+            <TextBlock Grid.Row="1" Grid.Column="1" Foreground="#FFE5D7D7"
+                       Text="{Binding CurrentPlayer, UpdateSourceTrigger=PropertyChanged}" 
+                       FontSize="50"
+                       VerticalAlignment="Center"
+                       TextAlignment="Center">
+            </TextBlock>
+
+            <Label Content="Red pieces left:" Foreground="#FFE5D7D7" FontSize="35"
+                   Margin="0,100,0,0"
+                   HorizontalAlignment="Center"/>
+            <Label Content="{Binding NoRedPieces}" Foreground="#FFE5D7D7" FontSize="35"
+                   HorizontalAlignment="Center">
+            </Label>
+        </StackPanel>
+        
+    </Grid>
+</UserControl>
