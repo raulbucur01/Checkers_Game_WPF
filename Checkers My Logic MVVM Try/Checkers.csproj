@@ -56,6 +56,8 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Commands\CommandBase.cs" />
+    <Compile Include="Converters\BoolToVisibilityConverter.cs" />
+    <Compile Include="Converters\InvertedBoolToVisibilityConverter.cs" />
     <Compile Include="Models\Board.cs" />
     <Compile Include="Models\GameState.cs" />
     <Compile Include="Models\Images.cs" />

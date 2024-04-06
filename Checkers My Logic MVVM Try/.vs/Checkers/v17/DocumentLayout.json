@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\viewmodels\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:viewmodels\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\models\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:models\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,68 +11,28 @@
       "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:views\\gameview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\views\\gameview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:views\\gameview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers my logic mvvm try\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers my logic mvvm try\\models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\models\\postition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:models\\postition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\viewmodels\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:viewmodels\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\models\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:models\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\converters\\invertedbooltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:converters\\invertedbooltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers my logic mvvm try\\models\\pieces\\redpiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:models\\pieces\\redpiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers my logic mvvm try\\models\\pieces\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:models\\pieces\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\converters\\booltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:converters\\booltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\models\\pieces\\blackpiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:models\\pieces\\blackpiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers my logic mvvm try\\models\\pieces\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:models\\pieces\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers my logic mvvm try\\commands\\commandbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:commands\\commandbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|c:\\my_code\\githubrepos\\checkers_game_wpf\\checkers my logic mvvm try\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\views\\gameview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82CFFF8-CDD4-4818-B00E-BD41A5BB4FB6}|Checkers.csproj|solutionrelative:views\\gameview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,251 +42,106 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T14:47:43.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RedPiece.cs",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Models\\Pieces\\RedPiece.cs",
-              "RelativeDocumentMoniker": "Models\\Pieces\\RedPiece.cs",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Models\\Pieces\\RedPiece.cs",
-              "RelativeToolTip": "Models\\Pieces\\RedPiece.cs",
-              "ViewState": "AQIAAIsAAAAAAAAAAAAAwJ4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:00:13.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Piece.cs",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Models\\Pieces\\Piece.cs",
-              "RelativeDocumentMoniker": "Models\\Pieces\\Piece.cs",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Models\\Pieces\\Piece.cs",
-              "RelativeToolTip": "Models\\Pieces\\Piece.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAQwBcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:00:12.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "King.cs",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Models\\Pieces\\King.cs",
-              "RelativeDocumentMoniker": "Models\\Pieces\\King.cs",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Models\\Pieces\\King.cs",
-              "RelativeToolTip": "Models\\Pieces\\King.cs",
-              "ViewState": "AQIAAAABAAAAAAAAAAAAwBkBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:00:12.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CommandBase.cs",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Commands\\CommandBase.cs",
-              "RelativeDocumentMoniker": "Commands\\CommandBase.cs",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Commands\\CommandBase.cs",
-              "RelativeToolTip": "Commands\\CommandBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:00:09.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\App.config",
-              "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\App.config",
-              "RelativeToolTip": "App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-04-04T11:46:10.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Postition.cs",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Models\\Postition.cs",
-              "RelativeDocumentMoniker": "Models\\Postition.cs",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Models\\Postition.cs",
-              "RelativeToolTip": "Models\\Postition.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAqwCoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T07:15:28.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-04T06:42:14.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameState.cs",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Models\\GameState.cs",
-              "RelativeDocumentMoniker": "Models\\GameState.cs",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Models\\GameState.cs",
-              "RelativeToolTip": "Models\\GameState.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAvwDEAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T17:42:11.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Models\\Player.cs",
-              "RelativeDocumentMoniker": "Models\\Player.cs",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Models\\Player.cs",
-              "RelativeToolTip": "Models\\Player.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T17:41:47.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Images.cs",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Models\\Images.cs",
-              "RelativeDocumentMoniker": "Models\\Images.cs",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Models\\Images.cs",
-              "RelativeToolTip": "Models\\Images.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAuwC8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T17:39:42.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BlackPiece.cs",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Models\\Pieces\\BlackPiece.cs",
-              "RelativeDocumentMoniker": "Models\\Pieces\\BlackPiece.cs",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Models\\Pieces\\BlackPiece.cs",
-              "RelativeToolTip": "Models\\Pieces\\BlackPiece.cs",
-              "ViewState": "AQIAAIkAAAAAAAAAAADwv6IAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T17:39:35.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Board.cs",
               "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Models\\Board.cs",
               "RelativeDocumentMoniker": "Models\\Board.cs",
               "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Models\\Board.cs",
               "RelativeToolTip": "Models\\Board.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAswEsAAAAAAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAkwDUAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T17:24:47.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T17:38:15.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-03T17:38:13.884Z",
+              "WhenOpened": "2024-04-06T17:45:32.057Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ViewModelBase.cs",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\ViewModels\\ViewModelBase.cs",
-              "RelativeDocumentMoniker": "ViewModels\\ViewModelBase.cs",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\ViewModels\\ViewModelBase.cs",
-              "RelativeToolTip": "ViewModels\\ViewModelBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAA3AAAA",
+              "Title": "BlackPiece.cs",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Models\\Pieces\\BlackPiece.cs",
+              "RelativeDocumentMoniker": "Models\\Pieces\\BlackPiece.cs",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Models\\Pieces\\BlackPiece.cs",
+              "RelativeToolTip": "Models\\Pieces\\BlackPiece.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T15:27:54.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T17:30:20.871Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "InvertedBoolToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Converters\\InvertedBoolToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\InvertedBoolToVisibilityConverter.cs",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Converters\\InvertedBoolToVisibilityConverter.cs",
+              "RelativeToolTip": "Converters\\InvertedBoolToVisibilityConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T17:26:32.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BoolToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Converters\\BoolToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\BoolToVisibilityConverter.cs",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Converters\\BoolToVisibilityConverter.cs",
+              "RelativeToolTip": "Converters\\BoolToVisibilityConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T17:24:05.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GameView.xaml",
               "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Views\\GameView.xaml",
               "RelativeDocumentMoniker": "Views\\GameView.xaml",
               "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Views\\GameView.xaml",
               "RelativeToolTip": "Views\\GameView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-03T15:19:56.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GameViewModel.cs",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\ViewModels\\GameViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\GameViewModel.cs",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\ViewModels\\GameViewModel.cs",
-              "RelativeToolTip": "ViewModels\\GameViewModel.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAcwGUAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T15:16:26.718Z",
+              "WhenOpened": "2024-04-06T16:58:34.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "GameViewModel.cs",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\ViewModels\\GameViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\GameViewModel.cs",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\ViewModels\\GameViewModel.cs",
+              "RelativeToolTip": "ViewModels\\GameViewModel.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAUwI8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T16:58:25.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameState.cs",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Models\\GameState.cs",
+              "RelativeDocumentMoniker": "Models\\GameState.cs",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Models\\GameState.cs",
+              "RelativeToolTip": "Models\\GameState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T16:58:19.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "GameView.xaml.cs",
               "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Views\\GameView.xaml.cs",
               "RelativeDocumentMoniker": "Views\\GameView.xaml.cs",
               "ToolTip": "C:\\MY_CODE\\GitHubRepos\\Checkers_Game_WPF\\Checkers My Logic MVVM Try\\Views\\GameView.xaml.cs",
               "RelativeToolTip": "Views\\GameView.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAQwGcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T15:16:26.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T17:08:00.904Z"
             }
           ]
         }

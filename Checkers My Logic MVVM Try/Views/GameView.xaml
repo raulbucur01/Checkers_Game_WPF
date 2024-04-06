@@ -3,11 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:Checkers.Views"
+             xmlns:local="clr-namespace:Checkers.Converters"
              mc:Ignorable="d" 
              xmlns:ctx="clr-namespace:Checkers.ViewModels"
              d:DesignHeight="750" d:DesignWidth="1000">
-    
+
+    <UserControl.Resources>
+        <local:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+        <local:InvertedBoolToVisibilityConverter x:Key="InvertedBoolToVisibilityConverter"/>
+    </UserControl.Resources>
+
     <UserControl.DataContext>
         <ctx:GameViewModel/>
     </UserControl.DataContext>
@@ -33,7 +38,7 @@
             </MenuItem>
             <MenuItem Header="Help" FontSize="20" Height="40"/>
         </Menu>
-        
+
         <Grid Grid.Row="1" Grid.Column="1" Background="#FF644A2F">
         </Grid>
 
@@ -55,28 +60,43 @@
                 </UniformGrid>
             </Grid>
         </Border>
-        
+
         <!-- GAME INFO -->
         <StackPanel Grid.Row="1" Grid.Column="1" Background="#FF392817"
                     HorizontalAlignment="Center" VerticalAlignment="Center"
                     Width="301">
+            
             <Label Content="Black pieces left:" Foreground="#FFE5D7D7" FontSize="35"
                    Margin="0,0,0,0"
                    HorizontalAlignment="Center"/>
             <Label Content="{Binding NoBlackPieces}" Foreground="#FFE5D7D7" FontSize="35"
                    HorizontalAlignment="Center"
                    Margin="0,0,0,100"/>
-            
+
             <!-- NEXT MOVE -->
-            <Label Grid.Row="1" Grid.Column="1" FontSize="50" Foreground="#FFE5D7D7"
+            <Label Grid.Row="1" Grid.Column="1" FontSize="40" Foreground="#FFE5D7D7"
                    HorizontalAlignment="Center" VerticalAlignment="Center"
-                   Content="Next move:"/>
-            <TextBlock Grid.Row="1" Grid.Column="1" Foreground="#FFE5D7D7"
-                       Text="{Binding CurrentPlayer, UpdateSourceTrigger=PropertyChanged}" 
-                       FontSize="50"
-                       VerticalAlignment="Center"
-                       TextAlignment="Center">
-            </TextBlock>
+                   Content="Next move:"
+                   Visibility="{Binding GameFinished, Converter={StaticResource InvertedBoolToVisibilityConverter}}"/>
+            <Label Grid.Row="1" Grid.Column="1" Foreground="#FFE5D7D7"
+                   Content="{Binding CurrentPlayer}"
+                   FontSize="40"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Visibility="{Binding GameFinished, Converter={StaticResource InvertedBoolToVisibilityConverter}}"/>
+
+            <!-- GAME OUTCOME -->
+            <Label Grid.Row="1" Grid.Column="1" FontSize="40" Foreground="#FFE5D7D7"
+                   HorizontalAlignment="Center" VerticalAlignment="Center"
+                   Content="Game finished!"
+                   Visibility="{Binding GameFinished, Converter={StaticResource BoolToVisibilityConverter}}"/>
+            <Label Grid.Row="1" Grid.Column="1" Foreground="#FFE5D7D7"
+                   Content="{Binding GameOutcome}"
+                   FontSize="37"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Visibility="{Binding GameFinished, Converter={StaticResource BoolToVisibilityConverter}}"/>
+
 
             <Label Content="Red pieces left:" Foreground="#FFE5D7D7" FontSize="35"
                    Margin="0,100,0,0"
@@ -85,6 +105,6 @@
                    HorizontalAlignment="Center">
             </Label>
         </StackPanel>
-        
+
     </Grid>
 </UserControl>

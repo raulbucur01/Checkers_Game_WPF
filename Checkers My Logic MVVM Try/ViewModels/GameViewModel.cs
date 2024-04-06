@@ -1,15 +1,12 @@
 ﻿using Checkers.Models;
-using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Globalization;
 using System.Linq;
-using System.Windows.Data;
 
 namespace Checkers.ViewModels
 {
     public class GameViewModel : ViewModelBase
     {
+        // game info
         private int _noRedPieces;
 
         public int NoRedPieces
@@ -55,6 +52,36 @@ namespace Checkers.ViewModels
             }
         }
 
+        private bool _gameFinished;
+
+        public bool GameFinished
+        {
+            get { return _gameFinished; }
+            set
+            {
+                if (_gameFinished != value)
+                {
+                    _gameFinished = value;
+                    OnPropertyChanged(nameof(GameFinished));
+                }
+            }
+        }
+
+        private string _gameOutcome;
+
+        public string GameOutcome
+        {
+            get { return _gameOutcome; }
+            set
+            {
+                if (_gameOutcome != value)
+                {
+                    _gameOutcome = value;
+                    OnPropertyChanged(nameof(GameOutcome));
+                }
+            }
+        }
+
         public GameViewModel()
         {
             possibleMoveCache = new List<Position>();
@@ -63,6 +90,8 @@ namespace Checkers.ViewModels
             CurrentPlayer = gameState.CurrentPlayer.ToString();
             NoRedPieces = gameState.GetNoRedPiecesLeft();
             NoBlackPieces = gameState.GetNoBlackPiecesLeft();
+            GameFinished = false;
+            GameOutcome = null;
         }
 
         private GameState gameState;
@@ -103,6 +132,17 @@ namespace Checkers.ViewModels
             CurrentPlayer = gameState.CurrentPlayer.ToString();
             NoRedPieces = gameState.GetNoRedPiecesLeft();
             NoBlackPieces= gameState.GetNoBlackPiecesLeft();
+
+            if (NoRedPieces == 0)
+            {
+                GameFinished = true;
+                GameOutcome = "Black player won!";
+            }
+            else if (NoBlackPieces == 0)
+            {
+                GameFinished = true;
+                GameOutcome = "Red player won!";
+            }
         }
 
         public bool OnFromPositionSelected(Position pos)

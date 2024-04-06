@@ -34,9 +34,6 @@ C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic\obj\Debug\Checkers.cs
 C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic\obj\Debug\Checkers.csproj.CoreCompileInputs.cache
 C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic\obj\Debug\Checkers.exe
 C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic\obj\Debug\Checkers.pdb
-C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM Try\bin\Debug\Checkers.exe.config
-C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM Try\bin\Debug\Checkers.exe
-C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM Try\bin\Debug\Checkers.pdb
 C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM Try\obj\Debug\Checkers.csproj.AssemblyReference.cache
 C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM Try\obj\Debug\MainWindow.g.cs
 C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM Try\obj\Debug\Views\GameView.g.cs
@@ -45,10 +42,13 @@ C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM Try\obj\Debug\Ge
 C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM Try\obj\Debug\Checkers_MarkupCompile.cache
 C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM Try\obj\Debug\Checkers_MarkupCompile.lref
 C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM Try\obj\Debug\MainWindow.baml
+C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM Try\obj\Debug\Checkers.exe
+C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM Try\obj\Debug\Checkers.pdb
+C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM Try\bin\Debug\Checkers.exe.config
+C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM Try\bin\Debug\Checkers.exe
+C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM Try\bin\Debug\Checkers.pdb
 C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM Try\obj\Debug\Views\GameView.baml
 C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM Try\obj\Debug\Checkers.g.resources
 C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM Try\obj\Debug\Checkers.Properties.Resources.resources
 C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM Try\obj\Debug\Checkers.csproj.GenerateResource.cache
 C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM Try\obj\Debug\Checkers.csproj.CoreCompileInputs.cache
-C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM Try\obj\Debug\Checkers.exe
-C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM Try\obj\Debug\Checkers.pdb
