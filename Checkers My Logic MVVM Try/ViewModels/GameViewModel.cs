@@ -1,6 +1,9 @@
-﻿using Checkers.Models;
+﻿using Checkers.Commands;
+using Checkers.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Windows.Input;
 
 namespace Checkers.ViewModels
 {
@@ -82,9 +85,105 @@ namespace Checkers.ViewModels
             }
         }
 
+        // statistics
+        private string _noRedWins;
+
+        public string NoRedWins
+        {
+            get { return _noRedWins; }
+            set
+            {
+                if (_noRedWins != value)
+                {
+                    _noRedWins = value;
+                    OnPropertyChanged(nameof(NoRedWins));
+                }
+            }
+        }
+
+        private string _noBlackWins;
+
+        public string NoBlackWins
+        {
+            get { return _noBlackWins; }
+            set
+            {
+                if (_noBlackWins != value)
+                {
+                    _noBlackWins = value;
+                    OnPropertyChanged(nameof(NoBlackWins));
+                }
+            }
+        }
+
+        private string _maxWinnerPiecesRemaining;
+
+        public string MaxWinnerPiecesRemaining
+        {
+            get { return _maxWinnerPiecesRemaining; }
+            set
+            {
+                if (_maxWinnerPiecesRemaining != value)
+                {
+                    _maxWinnerPiecesRemaining = value;
+                    OnPropertyChanged(nameof(MaxWinnerPiecesRemaining));
+                }
+            }
+        }
+
+        // multiple jump
+        private bool _multipleJumpAllowed;
+
+        public bool MultipleJumpAllowed
+        {
+            get { return _multipleJumpAllowed; }
+            set
+            {
+                if (_multipleJumpAllowed != value)
+                {
+                    _multipleJumpAllowed = value;
+                    OnPropertyChanged(nameof(MultipleJumpAllowed));
+                }
+            }
+        }
+        public ICommand NewGameCommand { get; }
+        public ICommand AllowMultipleJumpCommand { get; }
+        public ICommand SaveGameCommand { get; }
+
+        public event EventHandler BoardStateChanged;
+
         public GameViewModel()
         {
             possibleMoveCache = new List<Position>();
+            gameState = new GameState(Player.Red, Board.Initial());
+
+            // game info
+            CurrentPlayer = gameState.CurrentPlayer.ToString();
+            NoRedPieces = gameState.GetNoRedPiecesLeft();
+            NoBlackPieces = gameState.GetNoBlackPiecesLeft();
+            GameFinished = false;
+            GameOutcome = null;
+
+            repository = new Repository();
+
+            // statistics
+            NoRedWins = "Red wins: " + repository.NoRedWins;
+            NoBlackWins = "Black wins: " + repository.NoBlackWins;
+            MaxWinnerPiecesRemaining = "Maximum winner pieces left: " + repository.MaxWinnerPiecesRemaining;
+
+            // commands
+            NewGameCommand = new RelayCommand(ExecuteNewGame);
+            AllowMultipleJumpCommand = new RelayCommand(ExecuteAllowMultipleJump);
+            SaveGameCommand = new RelayCommand(ExecuteSaveGame);
+        }
+
+        private void ExecuteSaveGame(object obj)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void ExecuteNewGame(object obj)
+        {
             gameState = new GameState(Player.Red, Board.Initial());
 
             CurrentPlayer = gameState.CurrentPlayer.ToString();
@@ -92,8 +191,20 @@ namespace Checkers.ViewModels
             NoBlackPieces = gameState.GetNoBlackPiecesLeft();
             GameFinished = false;
             GameOutcome = null;
+
+            // notify subscribers that the board state has changed
+            BoardStateChanged?.Invoke(this, EventArgs.Empty);
         }
 
+        private void ExecuteAllowMultipleJump(object obj)
+        {
+            if (gameState.MultipleJumpAllowed == false)
+                gameState.MultipleJumpAllowed = true;
+            else
+                gameState.MultipleJumpAllowed = false;
+        }
+
+        private Repository repository;
         private GameState gameState;
         private Position selectedPos = null;
         private List<Position> possibleMoveCache;
@@ -137,11 +248,23 @@ namespace Checkers.ViewModels
             {
                 GameFinished = true;
                 GameOutcome = "Black player won!";
+
+                repository.NoBlackWins += 1;
+                NoBlackWins = "Black wins: " + repository.NoBlackWins;
+
+                repository.MaxWinnerPiecesRemaining = NoBlackPieces;
+                MaxWinnerPiecesRemaining = "Maximum winner pieces left: " + repository.MaxWinnerPiecesRemaining;
             }
             else if (NoBlackPieces == 0)
             {
                 GameFinished = true;
                 GameOutcome = "Red player won!";
+
+                repository.NoRedWins += 1;
+                NoRedWins = "Red wins: " + repository.NoRedWins;
+
+                repository.MaxWinnerPiecesRemaining = NoRedPieces;
+                MaxWinnerPiecesRemaining = "Maximum winner pieces left: " + repository.MaxWinnerPiecesRemaining;
             }
         }
 

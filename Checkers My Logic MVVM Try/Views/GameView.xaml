@@ -30,13 +30,31 @@
         <!-- MENU -->
         <Menu Grid.Row="0" Grid.ColumnSpan="2">
             <MenuItem Header="File" FontSize="20" Height="40">
-                <MenuItem Header="New Game"/>
-                <MenuItem Header="Save"/>
+                <MenuItem Header="New Game" Command="{Binding NewGameCommand}"/>
+                
+                <MenuItem Header="Save" Command="{Binding SaveGameCommand}"/>
+                 
                 <MenuItem Header="Open"/>
-                <MenuItem Header="Allow Multiple Jump" IsCheckable="True"/>
-                <MenuItem Header="Statistics"/>
+
+                <MenuItem Header="Allow Multiple Jump" IsCheckable="True"
+                          IsChecked="{Binding MultipleJumpAllowed, Mode=TwoWay}"
+                          Command="{Binding AllowMultipleJumpCommand}"/>
+
+                <MenuItem Header="Statistics">
+                    <MenuItem Header="{Binding NoRedWins}"/>
+                    <MenuItem Header="{Binding NoBlackWins}"/>
+                    <MenuItem Header="{Binding MaxWinnerPiecesRemaining}"/>
+                </MenuItem>
             </MenuItem>
-            <MenuItem Header="Help" FontSize="20" Height="40"/>
+            
+            <MenuItem Header="Help" FontSize="20" Height="40">
+                <MenuItem Header="About">
+                    <MenuItem Header="Creator: Bucur Raul-Paraschiv" IsEnabled="False" FontWeight="Black"/>
+                    <MenuItem Header="Email: raul.bucur@student.unitbv.ro" IsEnabled="False"/>
+                    <MenuItem Header="Group: 10LF221" IsEnabled="False"/>
+                    <MenuItem Header="Description: Checkers game" IsEnabled="False"/>
+                </MenuItem>
+            </MenuItem>
         </Menu>
 
         <Grid Grid.Row="1" Grid.Column="1" Background="#FF644A2F">

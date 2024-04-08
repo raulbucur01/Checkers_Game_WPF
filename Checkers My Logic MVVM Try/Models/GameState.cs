@@ -8,7 +8,7 @@ namespace Checkers.Models
         public Board Board { get; }
         public Player CurrentPlayer { get; private set; }
 
-        public bool MultipleJumpAllowed { get; set; } = true;
+        public bool MultipleJumpAllowed { get; set; } = false;
 
         public int GetNoBlackPiecesLeft()
         {

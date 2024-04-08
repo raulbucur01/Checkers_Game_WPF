@@ -56,6 +56,8 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Commands\CommandBase.cs" />
+    <Compile Include="Commands\NewGameCommand.cs" />
+    <Compile Include="Commands\RelayCommand.cs" />
     <Compile Include="Converters\BoolToVisibilityConverter.cs" />
     <Compile Include="Converters\InvertedBoolToVisibilityConverter.cs" />
     <Compile Include="Models\Board.cs" />
@@ -67,6 +69,7 @@
     <Compile Include="Models\Pieces\RedPiece.cs" />
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\Postition.cs" />
+    <Compile Include="Models\Repository.cs" />
     <Compile Include="ViewModels\GameViewModel.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
     <Compile Include="Views\GameView.xaml.cs">
@@ -115,7 +118,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Resources\games.txt" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\Board.png" />
   </ItemGroup>
@@ -126,6 +131,9 @@
   <ItemGroup>
     <Resource Include="Assets\KingB.png" />
     <Resource Include="Assets\KingR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\statistics.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

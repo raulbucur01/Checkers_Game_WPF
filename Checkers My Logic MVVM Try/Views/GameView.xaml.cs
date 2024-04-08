@@ -12,7 +12,6 @@ namespace Checkers.Views
     {
         private readonly Image[,] pieceImages = new Image[8, 8];
         private readonly Rectangle[,] highlights = new Rectangle[8, 8];
-        //private readonly Dictionary<Position, Move> moveCache = new Dictionary<Position, Move>();
 
         private GameViewModel gameViewModel;
         public GameView()
@@ -21,7 +20,14 @@ namespace Checkers.Views
             InitializeBoard();
 
             gameViewModel = (GameViewModel)DataContext;
+
             DrawBoard(gameViewModel.GetBoard());
+
+            // subscribing to the BoardStateChanged event
+            gameViewModel.BoardStateChanged += (sender, e) =>
+            {
+                DrawBoard(gameViewModel.GetBoard());
+            };
         }
 
         private void InitializeBoard()
