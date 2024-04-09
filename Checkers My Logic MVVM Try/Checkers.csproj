@@ -55,8 +55,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Commands\CommandBase.cs" />
-    <Compile Include="Commands\NewGameCommand.cs" />
     <Compile Include="Commands\RelayCommand.cs" />
     <Compile Include="Converters\BoolToVisibilityConverter.cs" />
     <Compile Include="Converters\InvertedBoolToVisibilityConverter.cs" />
@@ -70,6 +68,7 @@
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\Postition.cs" />
     <Compile Include="Models\Repository.cs" />
+    <Compile Include="Services\DialogService.cs" />
     <Compile Include="ViewModels\GameViewModel.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
     <Compile Include="Views\GameView.xaml.cs">
@@ -117,9 +116,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\games.txt" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\Board.png" />

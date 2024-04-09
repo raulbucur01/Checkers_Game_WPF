@@ -1,5 +1,6 @@
 ﻿using Checkers.Commands;
 using Checkers.Models;
+using Checkers.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -149,13 +150,19 @@ namespace Checkers.ViewModels
         public ICommand NewGameCommand { get; }
         public ICommand AllowMultipleJumpCommand { get; }
         public ICommand SaveGameCommand { get; }
+        public ICommand OpenGameCommand { get; }
 
         public event EventHandler BoardStateChanged;
+
+        private readonly IDialogService _dialogService;
 
         public GameViewModel()
         {
             possibleMoveCache = new List<Position>();
             gameState = new GameState(Player.Red, Board.Initial());
+
+            // dialog service
+            _dialogService = new DialogService();
 
             // game info
             CurrentPlayer = gameState.CurrentPlayer.ToString();
@@ -175,11 +182,36 @@ namespace Checkers.ViewModels
             NewGameCommand = new RelayCommand(ExecuteNewGame);
             AllowMultipleJumpCommand = new RelayCommand(ExecuteAllowMultipleJump);
             SaveGameCommand = new RelayCommand(ExecuteSaveGame);
+            OpenGameCommand = new RelayCommand(ExecuteOpenGame);
+        }
+
+        private void ExecuteOpenGame(object obj)
+        {
+            string filePath = _dialogService.ShowOpenFileDialog("", "txt");
+
+            if (!string.IsNullOrEmpty(filePath))
+            {
+                gameState = repository.LoadGameFromFile(filePath);
+
+                CurrentPlayer = gameState.CurrentPlayer.ToString();
+                NoRedPieces = gameState.GetNoRedPiecesLeft();
+                NoBlackPieces = gameState.GetNoBlackPiecesLeft();
+                GameFinished = false;
+                GameOutcome = null;
+                MultipleJumpAllowed = gameState.MultipleJumpAllowed;
+
+                BoardStateChanged?.Invoke(this, EventArgs.Empty);
+            }
         }
 
         private void ExecuteSaveGame(object obj)
         {
-            throw new NotImplementedException();
+            string filePath = _dialogService.ShowSaveFileDialog("game", "txt");
+
+            if (!string.IsNullOrEmpty(filePath))
+            {
+                repository.SaveGameToFile(filePath, gameState);
+            }
         }
 
         private void ExecuteNewGame(object obj)

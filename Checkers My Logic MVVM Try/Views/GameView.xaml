@@ -34,7 +34,7 @@
                 
                 <MenuItem Header="Save" Command="{Binding SaveGameCommand}"/>
                  
-                <MenuItem Header="Open"/>
+                <MenuItem Header="Open" Command="{Binding OpenGameCommand}"/>
 
                 <MenuItem Header="Allow Multiple Jump" IsCheckable="True"
                           IsChecked="{Binding MultipleJumpAllowed, Mode=TwoWay}"
@@ -66,7 +66,7 @@
                 Height="700">
             <Grid x:Name="BoardGrid" MouseDown="BoardGrid_MouseDown">
                 <Grid.Background>
-                    <ImageBrush ImageSource="C:\MY_CODE\GitHubRepos\Checkers_Game_WPF\Checkers My Logic MVVM TRY\Assets\Board.png"/>
+                    <ImageBrush ImageSource="\Assets\Board.png"/>
                 </Grid.Background>
 
                 <UniformGrid x:Name="HighlightGrid"

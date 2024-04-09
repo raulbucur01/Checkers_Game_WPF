@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 
 namespace Checkers.Models
 {
@@ -51,12 +52,6 @@ namespace Checkers.Models
         public Repository()
         {
             LoadStatistics();
-            LoadGames();
-        }
-
-        private void LoadGames()
-        {
-            throw new NotImplementedException();
         }
 
         private void LoadStatistics()
@@ -93,6 +88,98 @@ namespace Checkers.Models
             writer.WriteLine(_maxWinnerPiecesRemaining);
 
             writer.Close();
+        }
+
+        // codification: red piece: 1, red king: 2, black piece: 3, black king: 4, blank space: 0
+        public void SaveGameToFile(string filePath, GameState gameState)
+        {
+            StreamWriter writer = new StreamWriter(filePath);
+
+            Board board = gameState.Board;
+
+            for (int r = 0; r < 8; r++)
+            {
+                for (int c = 0; c < 8; c++)
+                {
+                    if (board[r, c] == null)
+                    {
+                        writer.Write("0");
+                    }
+                    else if (board[r, c].Type == PieceType.RedPiece)
+                    {
+                        writer.Write("1");
+                    }
+                    else if (board[r, c].Type == PieceType.King && board[r, c].Color == Player.Red)
+                    {
+                        writer.Write("2");
+                    }
+                    else if (board[r, c].Type == PieceType.BlackPiece)
+                    {
+                        writer.Write("3");
+                    }
+                    else if (board[r, c].Type == PieceType.King && board[r, c].Color == Player.Black)
+                    {
+                        writer.Write("4");
+                    }
+                }
+
+                writer.Write("\n");
+            }
+
+            writer.Write($"{gameState.CurrentPlayer}\n");
+            writer.Write($"{gameState.MultipleJumpAllowed}\n");
+
+            writer.Close();
+        }
+
+        public GameState LoadGameFromFile(string filename)
+        {
+            StreamReader reader = new StreamReader(filename);
+
+            Board board = new Board();
+            for (int r = 0; r < 8; r++)
+            {
+                string line = reader.ReadLine();
+
+                for (int c = 0; c < 8; c++)
+                {
+                    char inputC = line[c];
+
+                    switch (inputC)
+                    {
+                        case '1':
+                            board[r, c] = new RedPiece(Player.Red);
+                            break;
+
+                        case '2':
+                            board[r, c] = new King(Player.Red);
+                            break;
+
+                        case '3':
+                            board[r, c] = new BlackPiece(Player.Black);
+                            break;
+
+                        case '4':
+                            board[r, c] = new King(Player.Black);
+                            break;
+
+                        default:
+                            break;
+                    }
+                }
+            }
+
+            string crtPlayerString = reader.ReadLine();
+            Player crtPlayer = crtPlayerString == "Red" ? Player.Red : Player.Black; 
+
+            string multipleJumpAllowedString = reader.ReadLine();
+            bool multipleJumpAllowed = multipleJumpAllowedString == "True" ? true : false;
+
+            GameState newGameState = new GameState(crtPlayer, board, multipleJumpAllowed);
+
+            reader.Close();
+
+            return newGameState;
         }
     }
 }

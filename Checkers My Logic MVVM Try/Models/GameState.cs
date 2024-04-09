@@ -10,6 +10,13 @@ namespace Checkers.Models
 
         public bool MultipleJumpAllowed { get; set; } = false;
 
+        public GameState(Player player, Board board, bool multipleJumpAllowed = false)
+        {
+            CurrentPlayer = player;
+            Board = board;
+            MultipleJumpAllowed = multipleJumpAllowed;
+        }
+
         public int GetNoBlackPiecesLeft()
         {
             int no = 0;
@@ -48,12 +55,6 @@ namespace Checkers.Models
                 }
             }
             return no;
-        }
-
-        public GameState(Player player, Board board)
-        {
-            CurrentPlayer = player;
-            Board = board;
         }
 
         public List<Position> LegalMovePositionsForPiece(Position pos)
