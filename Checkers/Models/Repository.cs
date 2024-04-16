@@ -10,11 +10,9 @@ namespace Checkers.Models
 {
     public class Repository
     {
-        private int _noRedWins { get; set; }
-        private int _noBlackWins { get; set; }
-        private int _maxWinnerPiecesRemaining { get; set; }
-
-        private List<GameState> _games = new List<GameState>();
+        private int _noRedWins;
+        private int _noBlackWins;
+        private int _maxWinnerPiecesRemaining;
 
         public int NoRedWins
         {
@@ -56,24 +54,27 @@ namespace Checkers.Models
 
         private void LoadStatistics()
         {
-            StreamReader reader = new StreamReader("C:/MY_CODE/GitHubRepos/Checkers_Game_WPF/Checkers/Resources/statistics.txt");
+            string path = Path.GetFullPath("./Resources/statistics.txt");
+            string substringToRemove = "\\bin\\Debug";
+            string relativePath = path.Replace(substringToRemove, "");
+            StreamReader reader = new StreamReader(Path.GetFullPath(relativePath));
 
             string redWins = reader.ReadLine();
             if (int.TryParse(redWins, out int redWinsInt))
             {
-                _noRedWins = redWinsInt;
+                NoRedWins = redWinsInt;
             }
 
             string blackWins = reader.ReadLine();
             if (int.TryParse(blackWins, out int blackWinsInt))
             {
-                _noBlackWins = blackWinsInt;
+                NoBlackWins = blackWinsInt;
             }
 
             string maxWinnerPieces = reader.ReadLine();
             if (int.TryParse(maxWinnerPieces, out int maxWinnerPiecesInt))
             {
-                _maxWinnerPiecesRemaining = maxWinnerPiecesInt;
+                MaxWinnerPiecesRemaining = maxWinnerPiecesInt;
             }
 
             reader.Close();
@@ -81,11 +82,16 @@ namespace Checkers.Models
 
         private void SaveStatistics()
         {
+            //string path = Path.GetFullPath("./Resources/statistics.txt");
+            //string substringToRemove = "\\bin\\Debug";
+            //string relativePath = path.Replace(substringToRemove, "");
+            //StreamWriter writer = new StreamWriter(Path.GetFullPath(relativePath));
+
             StreamWriter writer = new StreamWriter("C:/MY_CODE/GitHubRepos/Checkers_Game_WPF/Checkers/Resources/statistics.txt");
 
-            writer.WriteLine(_noRedWins);
-            writer.WriteLine(_noBlackWins);
-            writer.WriteLine(_maxWinnerPiecesRemaining);
+            writer.WriteLine(NoRedWins);
+            writer.WriteLine(NoBlackWins);
+            writer.WriteLine(MaxWinnerPiecesRemaining);
 
             writer.Close();
         }
