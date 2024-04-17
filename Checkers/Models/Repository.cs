@@ -1,18 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Controls;
+﻿using System.IO;
 
 namespace Checkers.Models
 {
     public class Repository
     {
-        private int _noRedWins;
-        private int _noBlackWins;
-        private int _maxWinnerPiecesRemaining;
+        private int _noRedWins { get; set; }
+        private int _noBlackWins { get; set; }
+        private int _maxWinnerPiecesRemaining { get; set; }
 
         public int NoRedWins
         {
@@ -62,19 +56,19 @@ namespace Checkers.Models
             string redWins = reader.ReadLine();
             if (int.TryParse(redWins, out int redWinsInt))
             {
-                NoRedWins = redWinsInt;
+                _noRedWins = redWinsInt;
             }
 
             string blackWins = reader.ReadLine();
             if (int.TryParse(blackWins, out int blackWinsInt))
             {
-                NoBlackWins = blackWinsInt;
+                _noBlackWins = blackWinsInt;
             }
 
             string maxWinnerPieces = reader.ReadLine();
             if (int.TryParse(maxWinnerPieces, out int maxWinnerPiecesInt))
             {
-                MaxWinnerPiecesRemaining = maxWinnerPiecesInt;
+                _maxWinnerPiecesRemaining = maxWinnerPiecesInt;
             }
 
             reader.Close();
@@ -82,16 +76,14 @@ namespace Checkers.Models
 
         private void SaveStatistics()
         {
-            //string path = Path.GetFullPath("./Resources/statistics.txt");
-            //string substringToRemove = "\\bin\\Debug";
-            //string relativePath = path.Replace(substringToRemove, "");
-            //StreamWriter writer = new StreamWriter(Path.GetFullPath(relativePath));
+            string path = Path.GetFullPath("./Resources/statistics.txt");
+            string substringToRemove = "\\bin\\Debug";
+            string relativePath = path.Replace(substringToRemove, "");
+            StreamWriter writer = new StreamWriter(Path.GetFullPath(relativePath));
 
-            StreamWriter writer = new StreamWriter("C:/MY_CODE/GitHubRepos/Checkers_Game_WPF/Checkers/Resources/statistics.txt");
-
-            writer.WriteLine(NoRedWins);
-            writer.WriteLine(NoBlackWins);
-            writer.WriteLine(MaxWinnerPiecesRemaining);
+            writer.WriteLine(_noRedWins);
+            writer.WriteLine(_noBlackWins);
+            writer.WriteLine(_maxWinnerPiecesRemaining);
 
             writer.Close();
         }

@@ -13,6 +13,8 @@ namespace Checkers.Models
         public abstract PieceType Type { get; }
         public abstract Player Color { get; }
 
+        //public bool HasMoved { get; set; } = false;
+
         public abstract Piece Copy();
 
         public abstract List<Position> GetPossibleMovePositions(Position from, Board board);
