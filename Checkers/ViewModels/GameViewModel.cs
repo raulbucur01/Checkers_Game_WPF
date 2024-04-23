@@ -200,6 +200,7 @@ namespace Checkers.ViewModels
                 GameOutcome = null;
                 MultipleJumpAllowed = gameState.MultipleJumpAllowed;
 
+                // notify subscribers that the board state has changed
                 BoardStateChanged?.Invoke(this, EventArgs.Empty);
             }
         }
